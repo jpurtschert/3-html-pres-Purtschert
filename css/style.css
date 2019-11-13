@@ -1,0 +1,121 @@
+body {
+    margin: 0 auto;
+}
+
+body, html, section {
+    width: 100%;
+    height: 100%;
+}
+
+.mySlides {display:none;}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: 'Kalam', cursive;
+    font-size: 4vw;
+}
+
+/* full size background image */
+.fs-img-1 {
+  background-image: url("../img/two-paths.JPG");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fs-img-2 {
+  background-image: url("../img/bench.JPG");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fs-img-3 {
+  background-image: url("../img/hiking.JPG");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fs-img-9 {
+  background-image: url("../img/clouds.JPG");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fs-img-4 {
+  background-image: url("../img/mountain.JPG");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fs-img-5 {
+  background-image: url("../img/valley.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fs-img-6 {
+  background-image: url("../img/winding-path.JPG");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fs-img-7 {
+  background-image: url("../img/beauty.JPG");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* text shadow */
+.black-shadow {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.80)
+}
+
+/* video */
+#video-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+/* audio */
+audio {
+    width: 16vw;
+    height: 2vw;
+}
+
+/* animated background image */
+@keyframes animatedBackground {
+	from { background-position: 0 0; }
+	to { background-position: 100% 0; }
+}
+
+#animate-area	{ 
+	width: 100%; 
+	height: 100%; 
+	background-image: url("../img/two-paths.JPG");
+	background-position: 0px 0px;
+	background-repeat: repeat-x;
+
+	animation: animatedBackground 20s linear infinite;
+}
+
+
+
